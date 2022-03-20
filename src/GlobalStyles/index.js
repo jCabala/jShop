@@ -7,4 +7,8 @@ export const Global = createGlobalStyle`
         font-family: Arial, Helvetica, sans-serif;
         box-sizing: border-box;
     }
+
+    a{
+        text-decoration: none;
+    }
 `;

@@ -27,10 +27,12 @@ const Hero = () => {
         <h2>
           Everyting you need <span>in one place</span>
         </h2>
-        <HeroBtn>
-          Shop Now
-          <KeyBoardArrowDown />
-        </HeroBtn>
+        <a href='#shop'>
+          <HeroBtn>
+            Shop Now
+            <KeyBoardArrowDown />
+          </HeroBtn>
+        </a>
       </Wrapper>
 
       <Section colored>

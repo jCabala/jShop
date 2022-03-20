@@ -70,7 +70,7 @@ const ShopSection = () => {
   if (error) return <h2>Ooops. Something went wrong. :(</h2>;
 
   return (
-    <Wrapper>
+    <Wrapper id='shop'>
       <h1>Our products</h1>
       <StyledCartIcon onClick={() => setCartOpen(true)}>
         <Badge badgeContent={getTotalItems(cartItems)} color='error' />

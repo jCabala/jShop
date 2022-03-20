@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   margin: 40px;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   font-family: Arial, Helvetica, sans-serif;
 
   img {
@@ -51,6 +51,7 @@ export const CarouseleItemContainer = styled.div`
   width: 100%;
   max-width: 1000px;
   min-height: 300px;
+  max-height: 500px;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
@@ -61,6 +62,7 @@ export const CarouseleItemContainer = styled.div`
     width: 100%;
     height: auto;
     min-height: 300px;
+    max-height: 500px;
 
     object-fit: cover;
   }
